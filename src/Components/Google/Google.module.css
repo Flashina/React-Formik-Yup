@@ -1,0 +1,45 @@
+*{
+    background-color: rgb(46, 41, 41);
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -25px;
+}
+
+.google {
+    font-size: 90px;
+    color: white;
+}
+
+.searchfeel{
+    display: flex;
+    flex-direction: row;
+}
+
+.search, .feeling{
+    color: white;
+    background-color: rgb(32, 30, 30);
+    padding: 12px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+input{
+    border: thin solid gray;
+    width: 85vh;
+    height: 40px;
+    margin-top: -35px;
+    border-radius: 60px;
+
+}
+
+p{
+    color: gray;
+}
+
